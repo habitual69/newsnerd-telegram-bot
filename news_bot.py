@@ -79,7 +79,6 @@ def handle_next_button_callback(client, callback_query):
 # Define a handler for the /news command
 @app.on_message(filters.command(["news","national", "business", "sports", "world", "politics", "technology", "startup", "entertainment", "miscellaneous", "science", "automobile"]))
 def handle_news_command(client, message):
-    client.delete_messages(message.chat.id, message.message_id)
     global current_article_index
     global data
     if message.text[1:]=='news':
