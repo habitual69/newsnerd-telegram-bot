@@ -27,6 +27,8 @@ cd newsnerd-telegram-bot
 
 ```
 BOT_TOKEN=<your_bot_token_here>
+API_ID=<your_APP_ID>
+API_HASH = <your_API_HASH>
 
 ```
 
