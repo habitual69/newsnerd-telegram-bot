@@ -1,4 +1,4 @@
-# **NewsNerd Telegram Bot Docker Setup**
+# **NewsNerd Telegram Bot With Docker Setup To Self-hosted enthusiast**
 
 This is a Dockerized setup for the NewsNerd Telegram Bot, which provides a simple way to get news updates from various categories in Telegram.
 
