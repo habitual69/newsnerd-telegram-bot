@@ -102,6 +102,7 @@ def handle_news_command(client, message):
     keyboard = [[InlineKeyboardButton("Next", callback_data="next")],[InlineKeyboardButton("Chaoose Category", callback_data="category")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     client.send_photo(message.chat.id, image_url, caption=message_text, parse_mode=enums.ParseMode.HTML, reply_markup=reply_markup)
+
         
 
 # Define a handler for the "Next" button callback
